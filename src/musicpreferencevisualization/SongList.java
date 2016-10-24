@@ -18,7 +18,7 @@ public class SongList{
                 return info[0];
             case Genre:
                 return info[2];
-            case Date:
+            case Year:
                 return info[3];
             default:
                 return info[0];
@@ -33,7 +33,7 @@ public class SongList{
                 info[0] = str;
             case Genre:
                 info[2] = str;
-            case Date:
+            case Year:
                 info[3] = str;
             default:
                 info[0] = str;
@@ -45,7 +45,7 @@ public class SongList{
         }
     }
     
-    private LList<Song> list;
+    private DLList<Song> list;
     
     private void fileReader() {
         

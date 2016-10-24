@@ -4,7 +4,7 @@ import java.util.Random;
 public class ProjectRunner {
 
     public static void main(String[] args) {
-        LList<String> list = new LList<String>();
+        DLList<String> list = new DLList<String>();
         Random r = new Random();
         for (int i = 100; i > 0; i --) {
             list.add(""+r.nextInt(500));
